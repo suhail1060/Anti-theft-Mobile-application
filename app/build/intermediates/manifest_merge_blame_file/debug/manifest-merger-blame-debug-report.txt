@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ideanity.oceans.antitheftapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.REORDER_TASKS" />
+11-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:6:5-72
+11-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:6:22-69
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:7:5-66
+12-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:7:22-63
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:8:5-67
+13-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:9:5-77
+14-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:9:22-74
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:10:5-79
+15-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:10:22-76
+16
+17    <application
+17-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:12:5-42:19
+18        android:allowBackup="false"
+18-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:13:9-36
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\lohit\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:14:9-43
+22        android:label="@string/app_name"
+22-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:15:9-41
+23        android:supportsRtl="true"
+23-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:16:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:17:9-40
+26        <activity android:name="ideanity.oceans.antitheftapp.HomeActivity" />
+26-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:20:9-49
+26-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:20:19-47
+27        <activity android:name="ideanity.oceans.antitheftapp.SetPin" />
+27-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:21:9-43
+27-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:21:19-41
+28        <activity android:name="ideanity.oceans.antitheftapp.MainActivity" >
+28-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:22:9-28:20
+28-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:22:19-47
+29            <intent-filter>
+29-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:23:13-27:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:24:17-69
+30-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:24:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:26:17-77
+32-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:26:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:29:9-31:47
+36            android:name="ideanity.oceans.antitheftapp.EnterPin"
+36-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:30:13-37
+37            android:theme="@style/AppTheme" />
+37-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:31:13-44
+38        <activity
+38-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:32:9-34:47
+39            android:name="ideanity.oceans.antitheftapp.ResetPin"
+39-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:33:13-37
+40            android:theme="@style/AppTheme" />
+40-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:34:13-44
+41        <activity
+41-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:35:9-37:47
+42            android:name="ideanity.oceans.antitheftapp.ForgotPin"
+42-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:36:13-38
+43            android:theme="@style/AppTheme" />
+43-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:37:13-44
+44
+45        <service
+45-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:38:9-41:39
+46            android:name="ideanity.oceans.antitheftapp.PocketService"
+46-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:39:13-42
+47            android:enabled="true"
+47-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:40:13-35
+48            android:exported="true" />
+48-->D:\AntiTheftApp\app\src\main\AndroidManifest.xml:41:13-36
+49    </application>
+50
+51</manifest>
